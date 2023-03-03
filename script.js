@@ -88,3 +88,20 @@ console.log(verificaFibonacci(13));
 //----------------------------------------------------------------------
 
 //COMO CHEGUEI NESSA RESPOSTA: Mesmo o carro sendo mais rápido e o caminhão tendo contra tempos, o que define a resposta seria o fato de os veículos estarem em sentidos opostos, e a pergunta se referir ao momento em que eles se cruzam e não antes e nem depois disso.
+
+////////////////////////////////////////////////
+
+//Escreva um programa que inverta os caracteres de um string.
+
+const inverteString = (palavra) => {
+  let palavraInvertida = [];
+  let palavraFinal = '';
+
+  for (let i = palavra.length-1; i >= 0; i--) {
+    palavraInvertida.push(palavra[i]);
+    palavraFinal = palavraInvertida.join('');
+  }
+  return palavraFinal;
+}
+
+console.log(inverteString("computador"));
