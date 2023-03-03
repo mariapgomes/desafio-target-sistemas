@@ -70,3 +70,21 @@ console.log(verificaFibonacci(13));
 //----------------------------------------------------------------------
 
 // f) 2,10, 12, 16, 17, 18, 19, _20_ | Sempre soma ao último número começando por 8, depois 2, depois a metade de 8(4) e a metade de 2(1), segue somando os últimos números com a metade de 1.
+
+////////////////////////////////////////////////
+
+// Dois veículos (um carro e um caminhão) saem respectivamente de cidades opostas pela mesma rodovia. O carro de Ribeirão Preto em direção a Franca, a uma velocidade constante de 110 km/h e o caminhão de Franca em direção a Ribeirão Preto a uma velocidade constante de 80 km/h. Quando eles se cruzarem na rodovia, qual estará mais próximo a cidade de Ribeirão Preto?
+
+// IMPORTANTE:
+
+// a) Considerar a distância de 100km entre a cidade de Ribeirão Preto <-> Franca.
+
+// b) Considerar 2 pedágios como obstáculo e que o caminhão leva 5 minutos a mais para passar em cada um deles e o carro possui tag de pedágio (Sem Parar)
+
+// c) Explique como chegou no resultado.
+//----------------------------------------------------------------------
+
+//RESPOSTA: Os dois estarão na mesma distância, porque no momento que eles se cruzam eles estão exatamente no mesmo ponto.
+//----------------------------------------------------------------------
+
+//COMO CHEGUEI NESSA RESPOSTA: Mesmo o carro sendo mais rápido e o caminhão tendo contra tempos, o que define a resposta seria o fato de os veículos estarem em sentidos opostos, e a pergunta se referir ao momento em que eles se cruzam e não antes e nem depois disso.
